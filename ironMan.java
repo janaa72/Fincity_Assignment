@@ -26,11 +26,13 @@ class ironMan {
   }
   public static void main(String args[]){
      Scanner sc = new Scanner(System.in);
+     System.out.print("Enter N value");
      int N = sc.nextInt();
+     System.out.print("Enter size array");
      int len = sc.nextInt();
      ArrayList<ArrayList<Integer>> planets = new ArrayList<ArrayList<Integer>>();
      int k =0;
-      
+     System.out.print("Enter array elements");
      while(k<len){
           ArrayList<Integer> planet = new ArrayList<Integer>();
           planet.add(0,sc.nextInt());

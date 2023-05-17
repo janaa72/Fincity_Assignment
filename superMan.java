@@ -12,7 +12,7 @@ class superMan {
                total += (tdArray[i][j][0]/tdArray[i][j][1]);
                j++;
            }
-           System.out.println(total);
+           //System.out.println(total);
            if(total>=minmax[0] && total<=minmax[1]){
                 return i;
                 
